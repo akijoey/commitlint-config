@@ -1,0 +1,60 @@
+{
+  "name": "@akijoey/commitlint-config",
+  "version": "0.0.1",
+  "description": "Personal commitlint config.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    ".commitlintrc.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint",
+    "format": "prettier -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akijoey/commitlint-config.git"
+  },
+  "keywords": [
+    "commitlint"
+  ],
+  "author": "AkiJoey <akijoey@akijoey.com> (https://akijoey.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akijoey/commitlint-config/issues"
+  },
+  "homepage": "https://github.com/akijoey/commitlint-config#readme",
+  "devDependencies": {
+    "@akijoey/eslint-config": "latest",
+    "@akijoey/prettier-config": "latest",
+    "@commitlint/cli": "^11.0.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "eslint": "^7.14.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.2",
+    "prettier": "^2.2.0",
+    "semantic-release": "^17.4.4"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^11.0.0"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^11.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@akijoey"
+  },
+  "prettier": "@akijoey/prettier-config",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.{js,json,yml,md}": "prettier -w"
+  }
+}
