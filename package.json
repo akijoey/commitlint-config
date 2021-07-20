@@ -25,6 +25,9 @@
     "url": "https://github.com/akijoey/commitlint-config/issues"
   },
   "homepage": "https://github.com/akijoey/commitlint-config#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@akijoey/eslint-config": "latest",
     "@akijoey/prettier-config": "latest",
