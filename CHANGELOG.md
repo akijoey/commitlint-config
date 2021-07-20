@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/akijoey/commitlint-config/compare/v1.0.0...v1.0.1) (2021-07-20)
+
+
+### Bug Fixes
+
+* access public ([8371db9](https://github.com/akijoey/commitlint-config/commit/8371db9ea200dbcdd52613dff3ed30632c00e580))
+
 # 1.0.0 (2021-07-20)
 
 
