@@ -1,6 +1,6 @@
 {
   "name": "@akijoey/commitlint-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Personal commitlint config.",
   "main": "index.js",
   "files": [
