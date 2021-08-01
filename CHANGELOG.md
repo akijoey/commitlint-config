@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/akijoey/commitlint-config/compare/v1.0.1...v1.0.2) (2021-08-01)
+
+
+### Bug Fixes
+
+* dev scripts ([89a8d26](https://github.com/akijoey/commitlint-config/commit/89a8d26d50b472382100df549353f03019b62570))
+
 ## [1.0.1](https://github.com/akijoey/commitlint-config/compare/v1.0.0...v1.0.1) (2021-07-20)
 
 
