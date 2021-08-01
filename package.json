@@ -8,9 +8,10 @@
     ".commitlintrc.js"
   ],
   "scripts": {
-    "lint": "eslint .",
-    "test": "npm run lint",
-    "format": "prettier -w ."
+    "lint": "dev-scripts lint",
+    "test": "dev-scripts test",
+    "format": "dev-scripts format",
+    "prepare": "dev-scripts hook"
   },
   "repository": {
     "type": "git",
@@ -29,16 +30,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@akijoey/eslint-config": "latest",
-    "@akijoey/prettier-config": "latest",
-    "@commitlint/cli": "^11.0.0",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
-    "eslint": "^7.14.0",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.5.2",
-    "prettier": "^2.2.0",
-    "semantic-release": "^17.4.4"
+    "@akijoey/dev-scripts": "^1.0.4"
   },
   "peerDependencies": {
     "@commitlint/cli": "^11.0.0"
@@ -50,14 +42,8 @@
     "extends": "@akijoey"
   },
   "prettier": "@akijoey/prettier-config",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "lint-staged": {
-    "*.js": "eslint --fix",
-    "*.{js,json,yml,md}": "prettier -w"
+    "*.js": "npm run lint",
+    "*.{js,json,yml,md}": "npm run format"
   }
 }
