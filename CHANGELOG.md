@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/akijoey/commitlint-config/compare/v1.0.2...v1.0.3) (2021-08-16)
+
+
+### Bug Fixes
+
+* package json ([9d6e65a](https://github.com/akijoey/commitlint-config/commit/9d6e65a75158c139662a5bccaa34220445e84b40))
+
 ## [1.0.2](https://github.com/akijoey/commitlint-config/compare/v1.0.1...v1.0.2) (2021-08-01)
 
 
