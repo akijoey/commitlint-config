@@ -2,6 +2,17 @@
   "name": "@akijoey/commitlint-config",
   "version": "1.0.2",
   "description": "Personal commitlint config.",
+  "keywords": [
+    "commitlint"
+  ],
+  "repository": "github:akijoey/commitlint-config",
+  "homepage": "https://github.com/akijoey/commitlint-config#readme",
+  "bugs": "https://github.com/akijoey/commitlint-config/issues",
+  "author": "AkiJoey <akijoey@akijoey.com> (https://akijoey.com)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "files": [
     "index.js",
@@ -13,32 +24,17 @@
     "format": "dev-scripts format",
     "prepare": "dev-scripts hook"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akijoey/commitlint-config.git"
-  },
-  "keywords": [
-    "commitlint"
-  ],
-  "author": "AkiJoey <akijoey@akijoey.com> (https://akijoey.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/akijoey/commitlint-config/issues"
-  },
-  "homepage": "https://github.com/akijoey/commitlint-config#readme",
-  "publishConfig": {
-    "access": "public"
-  },
-  "devDependencies": {
-    "@akijoey/dev-scripts": "^1.0.4"
+  "dependencies": {
+    "@commitlint/config-conventional": "^11.0.0"
   },
   "peerDependencies": {
     "@commitlint/cli": "^11.0.0"
   },
-  "dependencies": {
-    "@commitlint/config-conventional": "^11.0.0"
+  "devDependencies": {
+    "@akijoey/dev-scripts": "latest"
   },
   "eslintConfig": {
+    "root": true,
     "extends": "@akijoey"
   },
   "prettier": "@akijoey/prettier-config",
