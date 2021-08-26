@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/akijoey/commitlint-config/compare/v1.0.3...v1.0.4) (2021-08-26)
+
+
+### Bug Fixes
+
+* end of line ([a42a88c](https://github.com/akijoey/commitlint-config/commit/a42a88c2917ada814bb16de03c854f2a05d77bd3))
+
 ## [1.0.3](https://github.com/akijoey/commitlint-config/compare/v1.0.2...v1.0.3) (2021-08-16)
 
 
