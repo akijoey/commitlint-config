@@ -38,6 +38,9 @@
     "extends": "@akijoey"
   },
   "prettier": "@akijoey/prettier-config",
+  "release": {
+    "extends": "@akijoey/semantic-release-config"
+  },
   "lint-staged": {
     "*.js": "npm run lint",
     "*.{js,json,yml,md}": "npm run format"
