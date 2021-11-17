@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/akijoey/commitlint-config/compare/v1.0.5...v1.0.6) (2021-11-17)
+
+
+### Bug Fixes
+
+* upgrade devkit ([c6bfc7b](https://github.com/akijoey/commitlint-config/commit/c6bfc7bebb67db196545dcd5e2b653a86411c6ba))
+
 ## [1.0.5](https://github.com/akijoey/commitlint-config/compare/v1.0.4...v1.0.5) (2021-09-18)
 
 
