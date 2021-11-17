@@ -19,10 +19,11 @@
     ".commitlintrc.js"
   ],
   "scripts": {
-    "lint": "dev-scripts lint",
-    "test": "dev-scripts test",
-    "format": "dev-scripts format",
-    "prepare": "dev-scripts hook"
+    "lint": "devkit lint",
+    "test": "devkit test",
+    "format": "devkit format",
+    "prepare": "devkit hook",
+    "release": "devkit release"
   },
   "dependencies": {
     "@commitlint/config-conventional": "^11.0.0"
@@ -31,18 +32,6 @@
     "@commitlint/cli": "^11.0.0"
   },
   "devDependencies": {
-    "@akijoey/dev-scripts": "latest"
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": "@akijoey"
-  },
-  "prettier": "@akijoey/prettier-config",
-  "release": {
-    "extends": "@akijoey/semantic-release-config"
-  },
-  "lint-staged": {
-    "*.js": "npm run lint",
-    "*.{js,json,yml,md}": "npm run format"
+    "@akijoey/devkit": "latest"
   }
 }
