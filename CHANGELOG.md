@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/akijoey/commitlint-config/compare/v1.0.6...v1.0.7) (2021-12-09)
+
+
+### Bug Fixes
+
+* upgrade commitlint ([86cdf7d](https://github.com/akijoey/commitlint-config/commit/86cdf7d7790a5b48d952efa2a865910aee8826fc))
+
 ## [1.0.6](https://github.com/akijoey/commitlint-config/compare/v1.0.5...v1.0.6) (2021-11-17)
 
 
