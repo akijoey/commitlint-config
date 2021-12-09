@@ -22,14 +22,14 @@
     "lint": "devkit lint",
     "test": "devkit test",
     "format": "devkit format",
-    "prepare": "devkit hook",
+    "prepare": "devkit prepare",
     "release": "devkit release"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^11.0.0"
+    "@commitlint/config-conventional": "^15.0.0"
   },
   "peerDependencies": {
-    "@commitlint/cli": "^11.0.0"
+    "@commitlint/cli": "^15.0.0"
   },
   "devDependencies": {
     "@akijoey/devkit": "latest"
