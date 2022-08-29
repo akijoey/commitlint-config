@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/akijoey/commitlint-config/compare/v1.0.7...v1.0.8) (2022-08-29)
+
+
+### Bug Fixes
+
+* upgrade dependencies ([f174def](https://github.com/akijoey/commitlint-config/commit/f174def43b260f3ef997fe2d9ee15b0b37d31dfb))
+
 ## [1.0.7](https://github.com/akijoey/commitlint-config/compare/v1.0.6...v1.0.7) (2021-12-09)
 
 
