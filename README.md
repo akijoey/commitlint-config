@@ -27,7 +27,7 @@ Add to your commitlint config:
 
 [npm-image]: https://img.shields.io/npm/v/@akijoey/commitlint-config
 [npm-url]: https://www.npmjs.com/package/@akijoey/commitlint-config
-[build-image]: https://img.shields.io/github/workflow/status/akijoey/commitlint-config/Build
+[build-image]: https://img.shields.io/github/actions/workflow/status/akijoey/commitlint-config/build.yml
 [build-url]: https://github.com/akijoey/commitlint-config/actions/workflows/build.yml
 [coverage-image]: https://img.shields.io/codecov/c/gh/akijoey/commitlint-config
 [coverage-url]: https://codecov.io/gh/akijoey/commitlint-config
