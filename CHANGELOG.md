@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/akijoey/commitlint-config/compare/v1.0.8...v1.0.9) (2023-02-10)
+
+
+### Bug Fixes
+
+* build badge ([8236761](https://github.com/akijoey/commitlint-config/commit/8236761b06ef2ff66b3757c044d13406552902e3))
+
 ## [1.0.8](https://github.com/akijoey/commitlint-config/compare/v1.0.7...v1.0.8) (2022-08-29)
 
 
